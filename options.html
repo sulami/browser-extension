@@ -5,7 +5,26 @@
 </head>
 <body>
   <h1>Password Settings</h1>
-  <button id="save">Save</button>
+
+  <table border="0" cellspacing="5" cellpadding="5">
+    <tr>
+      <td>Storage Server:</td>
+      <td><input type="text" value="" id="pw_server"></td>
+    </tr>
+    <tr>
+      <td>Username:</td>
+      <td><input type="text" value="" id="pw_username"></td>
+    </tr>
+    <tr>
+      <td>Master Password:</td>
+      <td><input type="password" value="" id="pw_password"></td>
+    </tr>
+    <tr>
+      <td><div id="status"></div></td>
+      <td style="text-align: right"><button id="save">Save</button></td>
+    </tr>
+  </table>
+
   <script src="options.js"></script>
 </body>
 </html>
